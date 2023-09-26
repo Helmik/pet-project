@@ -1,0 +1,17 @@
+.desktop-stepper {
+  margin-top: 32px;
+}
+
+.li-option {
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.google-maps-container {
+  height: calc(100vh - 14em);
+  margin: 1em 0;
+
+  .map {
+    height: calc(100% - 3em);
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "components": {
+    "header": {
+      "install": "Instalar App",
+      "title": "front-end",
+      "signUp": "Registrarse",
+      "login": "Iniciar sesión",
+      "logout": "Cerrar sesión",
+      "menu": {
+        "home": "Inicio",
+        "profile": "Perfil",
+        "business": "Negocios",
+        "login": "Iniciar sesión",
+        "logout": "Cerrar sesión"
+      }
+    },
+    "changeLanguage": {
+      "changeLanguage": "Selecciona idioma",
+      "spanish": "Español",
+      "english": "Inglés"
+    },
+    "countrySelector": {
+      "inputTextLabel.country": "País",
+      "inputTextLabel.phone": "Código de teléfono",
+      "inputTextLabel.currency": "Moneda"
+    }
+  },
+  "pages": {
+    "login": {
+      "email": "Correo elecrtónico",
+      "password": "Contraseña",
+      "passwordConfirmation": "Confirmación de contraseña",
+      "remember": "Mantener sesión",
+      "signIn": "Iniciar sesión",
+      "signUp": "Crear cuenta",
+      "goolge": "Google",
+      "facebook": "Facebook",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "createAccount": "Crear nueva cuenta",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "welcomeMessage": "¡Bienvenido a bordo {{firstName}}!",
+      "alreadyHasAccount": "¿Ya tienes una cuenta?",
+      "passwordRecoveryMessage": "Por favor introduce tu email para buscar tu cuenta",
+      "changePassword": "Cambio de contraseña",
+      "save": "Guardar"
+    },
+    "profile": {
+      "profile": "Perfil",
+      "password": "Contraseña",
+      "profile.picture": "Foto de perfil",
+      "edit": "Editar",
+      "addresses": "Direcciones"
+    },
+    "createAddress": {
+      "address": "Dirección",
+      "error.streetAndStreetNumberRequired": "La calle y número exterior son requeridos.",
+      "error.streetNumberRequred": "El número exterior es requerido.",
+      "error.streetRequired": "La calle es requerida.",
+      "map": "Mapa",
+      "moreDetails": "Más detalles",
+      "pickLocationInMap": "Arrastra el marcador hasta la ubicación de tu negoocio. Esto ayudará a tus clientes a ubicar tu negocio más facilmente."
+    }
+  },
+  "general": {
+    "apartmentlNumber": "Número interior",
+    "back": "Atrás",
+    "finish": "Finalizar",
+    "locality": "Localidad",
+    "municipality": "Municipio",
+    "next": "Siguiente",
+    "state": "Estado",
+    "street": "Calle",
+    "streetNumber": "Número exterior"
+  },
+  "server": {
+    "error": "Error en el servidor.",
+    "badRequest": "Error en el servidor.",
+    "user": {
+      "create.error": "No se pudo crear el usuario.",
+      "create.firstNameRequired": "El campo nombre es requerido.",
+      "create.lastNameRequired": "El campo apellido es requerido.",
+      "create.emailRequired": "El campo email es requerido.",
+      "create.passwordRequired": "El campo password es requerido.",
+      "invalidEmail": "Por favor, introduzca un email válido.",
+      "userInvalidFormatPassword": "La contraseña debe contener al menos una letra minúscula, una mayúscula y un número.",
+      "invalidPassword": "Las credenciales no son válidaas.",
+      "emailAlreadyUsed": "{{email}} ya se encuentra registrado.",
+      "userNotFoundByEmail": "{{email}} no se encuentra registrado.",
+      "userErrorOnSaveToken": "Error al iniciar sesión.",
+      "userErrorOnLogout": "Error al cerrar sesión.",
+      "passwordRecovery.sent": "Un correo fue enviado a {{email}}.",
+      "wrongPasswordConfirmation": "Las contraseñas deben de coincidir.",
+      "invalidToken": "El token ha caducado.",
+      "changePassword.success": "La contraseña ha sido cambiada exitosamente.",
+      "unautorized": "Usuario no autorizado."
+    }
+  }
+}

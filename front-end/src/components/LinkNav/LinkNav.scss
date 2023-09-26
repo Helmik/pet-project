@@ -1,0 +1,17 @@
+@use "../../styles/colors.scss" as colors;
+
+.link-nav {
+  color: colors.$text-primary;
+  padding-bottom: 4px;
+  margin: 0 12px;
+  border-bottom: 1px solid colors.$text-primary;
+  text-decoration: none;
+
+  :visited {
+    color: colors.$text-primary;
+  }
+
+  &.active {
+    border-bottom: 3px solid colors.$text-primary-voxblue-ondark;
+  }
+}

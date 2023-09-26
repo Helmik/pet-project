@@ -1,0 +1,99 @@
+{
+  "components": {
+    "header": {
+      "install": "Install App",
+      "title": "front-end",
+      "signUp": "Sign up",
+      "login": "Login",
+      "logout": "Logout",
+      "menu": {
+        "home": "Home",
+        "profile": "Profile",
+        "business": "Business",
+        "login": "Login",
+        "logout": "Logout"
+      }
+    },
+    "changeLanguage": {
+      "changeLanguage": "Change language",
+      "spanish": "Spanish",
+      "english": "English"
+    },
+    "countrySelector": {
+      "inputTextLabel.country": "Country",
+      "inputTextLabel.phone": "Phone code",
+      "inputTextLabel.currency": "Currency"
+    }
+  },
+  "pages": {
+    "login": {
+      "email": "Email Address",
+      "password": "Password",
+      "passwordConfirmation": "Password confirmation",
+      "remember": "Remember me",
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "goolge": "Google",
+      "facebook": "Facebook",
+      "forgotPassword": "Forgot password?",
+      "createAccount": "Create new account",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "welcomeMessage": "Welcome on board {{firstName}}!",
+      "alreadyHasAccount": "Already have an account?",
+      "passwordRecoveryMessage": "Please enter your email to search for your account",
+      "changePassword": "Change password",
+      "save": "Save"
+    },
+    "profile": {
+      "profile": "Profile",
+      "password": "Password",
+      "profile.picture": "Profile picture",
+      "edit": "Edit",
+      "addresses": "Addresses"
+    },
+    "createAddress": {
+      "address": "Address",
+      "error.streetAndStreetNumberRequired": "Street and street number are required.",
+      "error.streetNumberRequred": "Street number is required.",
+      "error.streetRequired": "Street is required.",
+      "map": "Map",
+      "moreDetails": "More details",
+      "pickLocationInMap": "Drag the marker to the location of your business. This will help your customers to locate your business easily."
+    }
+  },
+  "general": {
+    "apartmentlNumber": "Apartment/Suite number",
+    "back": "Back",
+    "finish": "Finish",
+    "locality": "Locality",
+    "municipality": "Municipality",
+    "next": "Next",
+    "state": "State",
+    "street": "Street",
+    "streetNumber": "Street number"
+  },
+  "server": {
+    "error": "Server error.",
+    "badRequest": "Server error.",
+    "user": {
+      "create.error": "Error on user creation.",
+      "create.firstNameRequired": "First name is required.",
+      "create.lastNameRequired": "Last name is required.",
+      "create.emailRequired": "Email is required.",
+      "create.passwordRequired": "Password is Required.",
+      "invalidEmail": "Please, introduce a valid email.",
+      "userInvalidFormatPassword": "Password must contain at least one capital letter, one lowercase letter and one number.",
+      "invalidPassword": "Credentials are not valid.",
+      "emailAlreadyUsed": "{{email}} is already registered.",
+      "userNotFoundByEmail": "{{email}} is not registered.",
+      "userErrorOnSaveToken": "Error on login",
+      "userErrorOnLogout": "Error on logout",
+      "passwordRecovery.sent": "An email was set to {{email}}.",
+      "wrongPasswordConfirmation": "Passwords must be the same.",
+      "invalidToken": "Token has expired.",
+      "changePassword.success": "Password changed successfully.",
+      "unautorized": "User unautorized."
+    }
+  }
+}
